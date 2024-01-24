@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 app = Flask(__name__)
-CORS(app)
+# CORS(app)
 
 # Load data from the 'sample.json' file in the root directory
 with open('day_stats.json', 'r') as json_file:
@@ -17,4 +17,4 @@ def get_data():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
