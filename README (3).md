@@ -23,6 +23,20 @@ Description: Welcome to our Trending Cryptocurrency Tracker, a powerful tool des
 ``
 
 
+## All API Routes
+
+Created API(https://cryptostats.onrender.com/) 
+with five Routes 
+- /day-stats (POST, "name"): daily statstical data of each cryptocurruncies.
+
+- /change-in-crypto (GET) : daily, weekly, monthly, anually changes in crypto 
+
+- /week-stats (POST, "name") : weekly statstical data of each crypto
+
+- /month-stats (POST, "name") : monthly statstical data of each crypto
+
+-  /year-stats (POST, "name"): anually statstical data of each crypto
+
 ## KEY FEATURES
 - Real-time Data Updates: Receive instant and accurate cryptocurrency information for timely decision-making in a dynamic market.
 
@@ -33,18 +47,11 @@ Description: Welcome to our Trending Cryptocurrency Tracker, a powerful tool des
 ## Technologies Used:
 - React.js  
 - Charting Libraries (D3.js or Chart.js)
-- Charting Libraries (D3.js or Chart.js)
-- WebSocket Technology
 - RESTful APIs
 - Machine Learning 
 - Pandas
--  Next.js
+- Next.js
 - Artifical Intelligence
-
-
-## Appendix
-
-Any additional information goes here
 
 
 ## Issues:

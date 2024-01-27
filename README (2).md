@@ -33,18 +33,11 @@ Description: Welcome to our Trending Cryptocurrency Tracker, a powerful tool des
 ## Technologies Used:
 - React.js  
 - Charting Libraries (D3.js or Chart.js)
-- Charting Libraries (D3.js or Chart.js)
-- WebSocket Technology
 - RESTful APIs
 - Machine Learning 
 - Pandas
 -  Next.js
 - Artifical Intelligence
-
-
-## Appendix
-
-Any additional information goes here
 
 
 ## Issues:
