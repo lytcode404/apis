@@ -100,7 +100,7 @@ def weekStats(name):
         data_list = data2.to_dict(orient='records')
         week_stats.append({
             'coin_name': coin_name,
-            'day_stats': data_list,
+            'week_stats': data_list,
         })
         return week_stats
     except Exception as e:
@@ -118,7 +118,7 @@ def monthStats(name):
         data_list = data2.to_dict(orient='records')
         week_stats.append({
             'coin_name': coin_name,
-            'day_stats': data_list,
+            'month_stats': data_list,
         })
         return week_stats
     except Exception as e:
@@ -136,7 +136,7 @@ def yearStats(name):
         data_list = data2.to_dict(orient='records')
         week_stats.append({
             'coin_name': coin_name,
-            'day_stats': data_list,
+            'year_stats': data_list,
         })
         return week_stats
     except Exception as e:
