@@ -1,8 +1,9 @@
 from flask import Flask, request, jsonify
 import pandas as pd
 from helper import all_data, change_in_day, change_in_month, change_in_week, change_in_year, dayStats, monthStats, weekStats, yearStats
-
+from flask_cors import CORS
 app = Flask(__name__)
+CORS(app)
 
 
 @app.route('/change-in-crypto', methods=['POST'])
