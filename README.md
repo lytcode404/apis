@@ -1,42 +1,69 @@
-## Project Title: Trending Cryptocurrency Tracker
 
-Description:
-Welcome to our Trending Cryptocurrency Tracker, a powerful tool designed to provide real-time insights into the dynamic world of cryptocurrencies. This project aims to offer a user-friendly interface with interactive visuals, ensuring an intuitive and informative experience for users of all levels.
+Project Title: Trending Cryptocurrency Tracker
 
-## Key Features:
+Description: Welcome to our Trending Cryptocurrency Tracker, a powerful tool designed to provide real-time insights into the dynamic world of cryptocurrencies. This project aims to offer a user-friendly interface with interactive visuals, ensuring an intuitive and informative experience for users of all levels.
 
-Real-time Data Updates:
-Receive instant and accurate cryptocurrency information for timely decision-making in a dynamic market.
 
-Customizable Settings for Users:
-Personalize the platform to align with your preferences, creating a tailored experience for each user.
-Search and Filter Options for Cryptocurrencies:
 
-Quickly find and focus on specific cryptocurrencies of interest, streamlining information retrieval and analysis.
+![Logo](https://media.istockphoto.com/id/1271131500/vector/bitcoins-crypto-currency-concept.jpg?s=612x612&w=0&k=20&c=v-xMm4rWBTFr9zr9e2YKhDXgPau2tP-9uAxJL7skkLE=)
 
-## Getting Started:
 
-Installation:
+## Acknowledgements
 
-Clone the repository: git clone https://github.com/yourusername/crypto-bubble.git
-Install dependencies: npm install
-Usage:
+ - [Clone the repository](https://github.com/yourusername/crypto-bubble.git)
+ - [Run the application](http://localhost:3000/)
+ 
 
-Run the application: npm start
-Access the platform at http://localhost:3000
+## API Reference
+
+#### Get item
+
+
+  https://cryptostats.onrender.com/
+``
+
+
+## KEY FEATURES
+- Real-time Data Updates: Receive instant and accurate cryptocurrency information for timely decision-making in a dynamic market.
+
+- Customizable Settings for Users: Personalize the platform to align with your preferences, creating a tailored experience for each user. Search and Filter Options for Cryptocurrencies.
+- Quickly find and focus on specific cryptocurrencies of interest, streamlining information retrieval and analysis.
+
+
+## Technologies Used:
+- React.js  
+- Charting Libraries (D3.js or Chart.js)
+- Charting Libraries (D3.js or Chart.js)
+- WebSocket Technology
+- RESTful APIs
+- Machine Learning 
+- Pandas
+-  Next.js
+- Artifical Intelligence
+
+
+## Appendix
+
+Any additional information goes here
+
 
 ## Issues:
 If you encounter any issues or have suggestions, please open an issue on the repository.
 
-## Technologies Used:
-React.js , 
-Charting Libraries (D3.js or Chart.js),
-Bootstrap or Tailwind CSS ,
-WebSocket Technology ,
-RESTful APIs,
-Machine Learning ,
-Pandas ,
-Next.js,
-Artifical Intelligence 
-## Deployed Project Link
-URL(https://crypto-bubble.vercel.app/)
+
+## Team Members
+- Dilshad Ans
+- Prakash Rawat
+- Mohammed Aftab
+- Krishna Chauhan
+## Deployment
+
+To deploy this project run
+
+
+  https://crypto-bubble.vercel.app/
+
+
+
+
+![Logo](https://lifehacker.com/imagery/articles/01HF2GRYN0QD8C1F876CR0FM13/hero-image.fill.size_1248x702.v1699833802.jpg)
