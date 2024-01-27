@@ -2,18 +2,34 @@ from flask import Flask, request, jsonify
 import pandas as pd
 from helper import all_data, change_in_day, change_in_month, change_in_week, change_in_year, dayStats, monthStats, weekStats, yearStats
 from flask_cors import CORS
+import json
+
 app = Flask(__name__)
 CORS(app)
 
 
-@app.route('/change-in-crypto', methods=['POST'])
+@app.route('/change-in-crypto', methods=['GET'])
 def change_in_crypto():
     try:
-        # Extract the name from JSON data
-        name = request.json.get('name')
 
-        # Get data for the provided name
-        data = all_data(name)
+        with open('change_in_crypto.json', 'r') as file:
+            data = json.load(file)
+
+        # Return the data as JSON response
+        return jsonify({'data': data})
+
+    except Exception as e:
+        error_message = f"Error handling request: {e}"
+        print(error_message)
+        return jsonify({'error': error_message})
+
+
+@app.route('/recommend-me-crypto', methods=['GET'])
+def recommend_me_crypto():
+    try:
+
+        with open('recommend_me_crypto.json', 'r') as file:
+            data = json.load(file)
 
         # Return the data as JSON response
         return jsonify({'data': data})
